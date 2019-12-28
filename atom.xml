@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.qiudx.top/"/>
-  <updated>2019-12-28T14:36:13.159Z</updated>
+  <updated>2019-12-28T16:08:09.256Z</updated>
   <id>https://www.qiudx.top/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Restful</title>
+    <link href="https://www.qiudx.top/2019/12/29/Restful/"/>
+    <id>https://www.qiudx.top/2019/12/29/Restful/</id>
+    <published>2019-12-28T16:05:42.000Z</published>
+    <updated>2019-12-28T16:08:09.256Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>概要</strong></p><ul><li>什么是Restful</li><li>原则条件</li><li>Restful应用特点</li></ul><a id="more"></a><h3 id="什么是Restful"><a href="#什么是Restful" class="headerlink" title="什么是Restful"></a>什么是Restful</h3><p>​    一种软件架构风格，设计风格而不是标准，只是提供了一组设计原则和约束条件。它主要用于客户端和服务器交互类的软件。基于这个风格设计的软件可以更简洁，更有层次，更易于实现缓存等机制。</p><p>​    REST（英文：<strong>Representational State Transfer</strong>，简称REST）描述了一个架构样式的网络系统，比如 web 应用程序。它首次出现在 2000 年 Roy Fielding 的博士论文中，他是 HTTP 规范的主要编写者之一。在目前主流的三种Web服务交互方案中，REST相比于SOAP（Simple Object Access protocol，简单对象访问协议）以及XML-RPC更加简单明了，无论是对URL的处理还是对Payload的编码，REST都倾向于用更加简单轻量的方法设计和实现。值得注意的是REST并没有一个明确的标准，而更像是一种设计的风格。</p><h3 id="原则条件"><a href="#原则条件" class="headerlink" title="原则条件"></a>原则条件</h3><p>   REST 指的是一组架构约束条件和原则。满足这些约束条件和原则的应用程序或设计就是 RESTful。</p><p>   Web 应用程序最重要的 REST 原则是，客户端和服务器之间的交互在请求之间是无状态的。从客户端到服务器的每个请求都必须包含理解请求所必需的信息。如果服务器在请求之间的任何时间点重启，客户端不会得到通知。此外，无状态请求可以由任何可用服务器回答，这十分适合云计算之类的环境。客户端可以缓存数据以改进性能。</p><p>   在服务器端，应用程序状态和功能可以分为各种资源。资源是一个有趣的概念实体，它向客户端公开。资源的例子有：应用程序对象、数据库记录、算法等等。每个资源都使用 URI (Universal Resource Identifier) 得到一个唯一的地址。所有资源都共享统一的接口，以便在客户端和服务器之间传输状态。使用的是标准的 HTTP 方法，比如 GET、PUT、POST 和DELETE。Hypermedia 是应用程序状态的引擎，资源表示通过超链接互联。</p><h3 id="Restful应用特点"><a href="#Restful应用特点" class="headerlink" title="Restful应用特点"></a>Restful应用特点</h3><ul><li>从资源的角度来考察整个网络，每个资源有唯一标识</li><li>使用通用的连接器接口操作资源</li><li>对资源的操作不会改变资源标识</li><li>连接协议具有无状态性</li><li>能够使用 Cache 机制来增进性能</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;strong&gt;概要&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;什么是Restful&lt;/li&gt;
+&lt;li&gt;原则条件&lt;/li&gt;
+&lt;li&gt;Restful应用特点&lt;/li&gt;
+&lt;/ul&gt;
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>Json Web Token 简介</title>
