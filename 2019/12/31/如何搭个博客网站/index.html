@@ -1,0 +1,82 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><title> 如何搭个博客网站 · qiudx's blog</title><meta name="description" content="如何搭个博客网站 - qiudx"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="icon" href="/favicon.ico"><link rel="stylesheet" href="/css/prontera.css"><link rel="search" type="application/opensearchdescription+xml" href="https://www.qiudx.top/atom.xml" title="qiudx's blog"><meta name="generator" content="Hexo 4.2.0"><link rel="alternate" href="/atom.xml" title="qiudx's blog" type="application/atom+xml">
+</head><body><header class="feature-header"><nav class="component-nav"><ul><div class="logo-container"><a href="/"><h2 class="title">qiudx's blog</h2></a></div><a href="/" target="_self" class="li component-nav-item"><p>首页</p></a><a href="/archives" target="_self" class="li component-nav-item"><p>归档</p></a><a href="/about" target="_self" class="li component-nav-item"><p>关于我</p></a><ul class="shortcut-icons"><a href="https://github.com/qiudxx" target="_blank"><img src="/images/github.svg" class="icon"></a><a href="/atom.xml" target="_blank"><img src="/images/rss.svg" class="icon"></a></ul></ul></nav></header><main class="container"><div id="post-container"><div class="post"><article class="post-block"><h1 class="post-title">如何搭个博客网站</h1><div class="post-info">Dec 31, 2019</div><div class="post-content"><h4 id="概要"><a href="#概要" class="headerlink" title="概要"></a>概要</h4><ul>
+<li><p>Hero</p>
+</li>
+<li><p>编写博客</p>
+</li>
+<li><p>github</p>
+</li>
+<li><p>域名</p>
+</li>
+</ul>
+<a id="more"></a>
+
+
+<h2 id="如何搭个博客网站"><a href="#如何搭个博客网站" class="headerlink" title="如何搭个博客网站"></a>如何搭个博客网站</h2><h4 id="概要-1"><a href="#概要-1" class="headerlink" title="概要"></a>概要</h4><ul>
+<li><p>Hero</p>
+</li>
+<li><p>编写博客</p>
+</li>
+<li><p>github</p>
+</li>
+<li><p>域名</p>
+</li>
+</ul>
+<!--more-->
+
+
+
+<h3 id="hexo"><a href="#hexo" class="headerlink" title="hexo"></a>hexo</h3><h4 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h4><p>主页： <a href="https://hexo.io/zh-cn/" target="_blank" rel="noopener">https://hexo.io/zh-cn/</a><br>主页中有非常详细的介绍，</p>
+<ul>
+<li>hexo 可以理解为是基于node.js制作的一个博客工具，不是我们理解的一个开源的博客系统。其中的差别，有点意思。</li>
+<li>hexo 正常来说，不需要部署到我们的服务器上，我们的服务器上保存的，其实是基于在hexo通过markdown编写的文章，然后hexo帮我们生成静态的html页面，然后，将生成的html上传到我们的服务器。简而言之：hexo是个静态页面生成、上传的工具。</li>
+</ul>
+<h4 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h4><p><code>hexo</code>依赖<code>node</code>环境，安装hexo前请先安装Nodejs</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-cli -g</span><br><span class="line">hexo init blog</span><br></pre></td></tr></table></figure>
+
+<h3 id="编写博客"><a href="#编写博客" class="headerlink" title="编写博客"></a>编写博客</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new xxx</span><br></pre></td></tr></table></figure>
+
+
+
+<h4 id="启动"><a href="#启动" class="headerlink" title="启动"></a>启动</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo s</span><br></pre></td></tr></table></figure>
+
+<h4 id="主题"><a href="#主题" class="headerlink" title="主题"></a>主题</h4><p>默认的主题有些丑，可以在<a href="https://hexo.io/themes/这个网站挑选自己喜欢的主题" target="_blank" rel="noopener">https://hexo.io/themes/这个网站挑选自己喜欢的主题</a></p>
+<h3 id="github"><a href="#github" class="headerlink" title="github"></a>github</h3><p>博客写好了之后，我们用利用GitHub来托管静态网站</p>
+<h4 id="账号注册"><a href="#账号注册" class="headerlink" title="账号注册"></a>账号注册</h4><p>先去<a href="https://github.com/" target="_blank" rel="noopener">github官网</a>上注册一个账号，根据提示最后一步别忘了激活你的邮箱</p>
+<h4 id="创建仓库"><a href="#创建仓库" class="headerlink" title="创建仓库"></a>创建仓库</h4><p>注册完后选择start a project创建一个公开的仓库</p>
+<p>注意：项目名字固定且唯一，username.github.io</p>
+<p>例如我的是<code>qiudxx.github.io</code>然后点击生成</p>
+<h4 id="发布"><a href="#发布" class="headerlink" title="发布"></a>发布</h4><p> 先安装git插件：</p>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
+
+<p>修改_config.yml文件:</p>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  - type: git</span><br><span class="line">    repository: git@github.com:qiudxx/qiudxx.github.io.git,master</span><br><span class="line">    branch: master</span><br></pre></td></tr></table></figure>
+
+<p>你要确保你本地能git push到服务端，需要配置本地的ssh github私钥。没有操作过的同学，请自行搜索。 </p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo g -d</span><br></pre></td></tr></table></figure>
+
+<p>这样应该就能在你的github上看到上传的代码了，这时看到的应该是纯静态的一个站点。</p>
+<p>这时可以访问<a href="https://username.github.io看到博客内容" target="_blank" rel="noopener">https://username.github.io看到博客内容</a></p>
+<p>例如我的地址是：<a href="https://qiudxx.github.io" target="_blank" rel="noopener">https://qiudxx.github.io</a></p>
+<p>我配置了域名，会自动跳转到我的域名</p>
+<h3 id="域名"><a href="#域名" class="headerlink" title="域名"></a>域名</h3><p>阿里云,百度云,腾讯云等云服务商会提供一些非常实惠的域名；</p>
+<p>1元就能买到很多不错的域名。</p>
+<h4 id="域名配置"><a href="#域名配置" class="headerlink" title="域名配置"></a>域名配置</h4><ol>
+<li><p>进入github刚创建的项目，点击Setting</p>
+</li>
+<li><p>在GitHub Pages设置中Custom domain设置为你的域名</p>
+<p><img src="/images/image-20191231224532249.png" alt="image-20191231224532249"></p>
+</li>
+<li><p>进入域名服务设置</p>
+<p>增加两条记录</p>
+<ul>
+<li>记录类型为cname</li>
+<li>记录值为你博客的访问地址</li>
+</ul>
+<img src="/images/image-20191231224836226.png" alt="image-20191231224836226" style="zoom:150%;" />
+</li>
+<li><p>开启https</p>
+<p><img src="/images/image-20191231225209179.png" alt="image-20191231225209179"></p>
+</li>
+</ol>
+</div></article></div></div></main><footer class="footer-container"><div class="paginator"><a href="/2019/12/29/Restful/" class="next">NEXT</a></div><div class="copyright"><p>© 2017 - 2019 <a href="https://www.qiudx.top">qiudx</a>, powered by <a href="https://hexo.io/" target="_blank">Hexo</a> and <a href="https://github.com/AngryPowman/hexo-theme-prontera" target="_blank">hexo-theme-prontera</a>.</p></div></footer></body></html>
