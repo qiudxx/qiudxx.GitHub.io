@@ -35,7 +35,7 @@ window.onscroll = function() {
       // toc
       winHeight,
       fixedToc = document.getElementById("toc"),
-      changeSize = document.getElementById("header").offsetHeight + document.getElementById("sidebar").offsetHeight;
+      changeSize = document.getElementById("header").offsetHeight;
   if (scroll >= 300) {
     addClass(totop,"show");
     //totop.classList.add("show");
