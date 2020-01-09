@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://www.qiudx.top/2020/01/09/tomcat-apr%E6%A8%A1%E5%BC%8F/</loc>
+    <lastmod>2020-01-09</lastmod>
+  </url>  <url>
+    <loc>https://www.qiudx.top/2020/01/07/Tomcat-Endpoint/</loc>
+    <lastmod>2020-01-08</lastmod>
+  </url>  <url>
     <loc>https://www.qiudx.top/2020/01/03/Tomcat%E7%AE%80%E4%BB%8B/</loc>
     <lastmod>2020-01-08</lastmod>
   </url>  <url>
@@ -11,9 +17,6 @@
     <lastmod>2020-01-08</lastmod>
   </url>  <url>
     <loc>https://www.qiudx.top/2020/01/04/Tomcat-Connector/</loc>
-    <lastmod>2020-01-07</lastmod>
-  </url>  <url>
-    <loc>https://www.qiudx.top/2020/01/07/Tomcat-Endpoint/</loc>
     <lastmod>2020-01-07</lastmod>
   </url>  <url>
     <loc>https://www.qiudx.top/2018/02/22/WebSocket%E4%BD%BF%E7%94%A8%E5%BF%83%E5%BE%97/</loc>
